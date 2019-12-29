@@ -11,59 +11,63 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+    font-size: 2.75rem;
+}
+
 @media (max-width: 350px) {
-    h1{
+    h1 {
         font-size: 2rem;
     }
 }
 
-.ll-container{
-    max-width: 435px;
+.ll-container {
+    max-width: 440px;
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
 
-.ll-header{
+.ll-header {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
 }
 
-.ll-link{
-    padding: 7px 12px 17px;
-    font-size: 1.1rem
+.ll-link {
+    padding: 7px 14px 18px;
+    font-size: 1.25rem
 }
 
 @media (max-width: 350px) {
-    .ll-link{
+    .ll-link {
         font-size: 0.875rem;
     }
 }
 
-.ll-about{
+.ll-about {
 
 }
 
-.ll-about-text{
+.ll-about-text {
     font-size: 1rem;
 }
 
-.ll-profile{
+.ll-profile {
 
 }
 
-.ll-profile-picture{
-    width: 290px;
-    height: 290px;
+.ll-profile-picture {
+    width: 360px;
+    height: 360px;
 }
 
 @media (max-width: 350px) {
-    .ll-profile-picture{
+    .ll-profile-picture {
         width: 200px;
         height: 200px;
     }
 }
 
-.ll-profile-text{
+.ll-profile-text {
     padding-top: 0.75rem;
 }
 
