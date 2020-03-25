@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 2.75rem;
+    font-size: 2.80rem;
 }
 
 @media (max-width: 350px) {
@@ -33,12 +33,13 @@ h1 {
 }
 
 .ll-link {
-    padding: 7px 14px 18px;
-    font-size: 1.25rem
+    padding: 7px 22px 18px;
+    font-size: 1.28rem
 }
 
 @media (max-width: 350px) {
     .ll-link {
+        padding: 7px 16px 18px;
         font-size: 0.875rem;
     }
 }
@@ -48,7 +49,7 @@ h1 {
 }
 
 .ll-about-text {
-    font-size: 1rem;
+    font-size: 0.90rem;
 }
 
 .ll-profile {
@@ -56,8 +57,8 @@ h1 {
 }
 
 .ll-profile-picture {
-    width: 360px;
-    height: 360px;
+    width: 365px;
+    height: 365px;
 }
 
 @media (max-width: 350px) {
@@ -73,13 +74,13 @@ h1 {
 
 .ll-social {
     background-size: cover;
-    width: 35px;
-    height: 35px;
+    width: 37px;
+    height: 37px;
     object-fit: cover;
     filter: invert(0.5);
     cursor: pointer;
     transition: filter 0.35s;
-    margin: 16px;
+    margin: 16px 19px;
 }
 
 .ll-social:hover {
