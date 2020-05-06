@@ -15,14 +15,14 @@ h1 {
     font-size: 2.80rem;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 390px) {
     h1 {
         font-size: 2rem;
     }
 }
 
 .ll-container {
-    max-width: 440px;
+    max-width: 445px;
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
@@ -37,7 +37,7 @@ h1 {
     font-size: 1.28rem
 }
 
-@media (max-width: 350px) {
+@media (max-width: 390px) {
     .ll-link {
         padding: 7px 16px 18px;
         font-size: 0.875rem;
@@ -49,7 +49,18 @@ h1 {
 }
 
 .ll-about-text {
-    font-size: 0.90rem;
+    font-size: 0.9rem;
+}
+
+.github-url {
+    white-space: nowrap;
+}
+
+@media (max-width: 450px) {
+    .github-url {
+        white-space: unset;
+        overflow-wrap: break-word;
+    }
 }
 
 .ll-profile {
@@ -61,7 +72,7 @@ h1 {
     height: 365px;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 390px) {
     .ll-profile-picture {
         width: 200px;
         height: 200px;
@@ -87,7 +98,7 @@ h1 {
     filter: invert(0.2);
 }
 
-@media (max-width: 350px) {
+@media (max-width: 390px) {
     .ll-social {
         width: 28px;
         height: 28px;
