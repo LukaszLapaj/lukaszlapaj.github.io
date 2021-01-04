@@ -5,6 +5,7 @@
 
 body {
     font-family: "Open Sans", sans-serif;
+    color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,14 +34,17 @@ h1 {
 }
 
 .ll-link {
-    padding: 7px 22px 18px;
+    padding-top: 7px;
+    padding-right: 11px;
+    padding-left: 11px;
+    padding-bottom: 18px;
     font-size: 1.28rem
 }
 
 @media (max-width: 390px) {
     .ll-link {
-        padding: 7px 16px 18px;
-        font-size: 0.875rem;
+        /*padding: 7px 16px 18px;*/
+        font-size: 0.9rem;
     }
 }
 
@@ -50,6 +54,7 @@ h1 {
 
 .ll-about-text {
     font-size: 0.9rem;
+    color: black;
 }
 
 .github-url {
