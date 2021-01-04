@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/lukaszlapaj.github.io/static/css/main.2c7096fd.chunk.css",
+    "main.js": "/lukaszlapaj.github.io/static/js/main.11babc39.chunk.js",
+    "main.js.map": "/lukaszlapaj.github.io/static/js/main.11babc39.chunk.js.map",
+    "runtime-main.js": "/lukaszlapaj.github.io/static/js/runtime-main.19caf2c7.js",
+    "runtime-main.js.map": "/lukaszlapaj.github.io/static/js/runtime-main.19caf2c7.js.map",
+    "static/css/2.95f25948.chunk.css": "/lukaszlapaj.github.io/static/css/2.95f25948.chunk.css",
+    "static/js/2.7889b7ed.chunk.js": "/lukaszlapaj.github.io/static/js/2.7889b7ed.chunk.js",
+    "static/js/2.7889b7ed.chunk.js.map": "/lukaszlapaj.github.io/static/js/2.7889b7ed.chunk.js.map",
+    "static/js/3.6b3a7b55.chunk.js": "/lukaszlapaj.github.io/static/js/3.6b3a7b55.chunk.js",
+    "static/js/3.6b3a7b55.chunk.js.map": "/lukaszlapaj.github.io/static/js/3.6b3a7b55.chunk.js.map",
+    "index.html": "/lukaszlapaj.github.io/index.html",
+    "static/css/2.95f25948.chunk.css.map": "/lukaszlapaj.github.io/static/css/2.95f25948.chunk.css.map",
+    "static/css/main.2c7096fd.chunk.css.map": "/lukaszlapaj.github.io/static/css/main.2c7096fd.chunk.css.map",
+    "static/js/2.7889b7ed.chunk.js.LICENSE.txt": "/lukaszlapaj.github.io/static/js/2.7889b7ed.chunk.js.LICENSE.txt",
+    "static/media/CV.85eabf06.pdf": "/lukaszlapaj.github.io/static/media/CV.85eabf06.pdf",
+    "static/media/facebook.2a4d84b0.svg": "/lukaszlapaj.github.io/static/media/facebook.2a4d84b0.svg",
+    "static/media/github.bb7ad8ab.svg": "/lukaszlapaj.github.io/static/media/github.bb7ad8ab.svg",
+    "static/media/instagram.1df2cd4a.svg": "/lukaszlapaj.github.io/static/media/instagram.1df2cd4a.svg",
+    "static/media/linkedin.ed1324b3.svg": "/lukaszlapaj.github.io/static/media/linkedin.ed1324b3.svg",
+    "static/media/mail.b2eac8c4.svg": "/lukaszlapaj.github.io/static/media/mail.b2eac8c4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19caf2c7.js",
+    "static/css/2.95f25948.chunk.css",
+    "static/js/2.7889b7ed.chunk.js",
+    "static/css/main.2c7096fd.chunk.css",
+    "static/js/main.11babc39.chunk.js"
+  ]
+}
