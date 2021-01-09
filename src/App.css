@@ -7,6 +7,8 @@ body {
     font-family: "Open Sans", sans-serif;
     color: black;
     overflow-y: scroll;
+    touch-action: pan-x pan-y;
+}
 
 img {
     -webkit-user-drag: none;
