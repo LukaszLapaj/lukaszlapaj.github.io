@@ -1,0 +1,29 @@
+.ll-header {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.ll-header-text {
+    font-size: 2.80rem;
+}
+
+.ll-link {
+    /* padding: 7px 22px 18px; */
+    font-size: 1.28rem;
+    padding: 0;
+}
+
+.ll-social {
+    background-size: cover;
+    width: 37px;
+    height: 37px;
+    object-fit: cover;
+    filter: invert(0.5);
+    cursor: pointer;
+    transition: filter 0.35s;
+    /* margin: 16px 19px; */
+}
+
+.ll-social:hover {
+    filter: invert(0.2);
+}

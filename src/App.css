@@ -16,97 +16,16 @@ h1 {
     font-size: 2.80rem;
 }
 
-@media (max-width: 390px) {
-    h1 {
-        font-size: 2rem;
-    }
-}
-
 .ll-container {
-    max-width: 445px;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    max-width: 430px;
 }
 
-.ll-header {
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-}
-
-.ll-link {
-    padding-top: 7px;
-    padding-right: 11px;
-    padding-left: 11px;
-    padding-bottom: 18px;
-    font-size: 1.28rem
-}
-
-@media (max-width: 390px) {
-    .ll-link {
-        /*padding: 7px 16px 18px;*/
-        font-size: 0.9rem;
+@media (max-width: 430px) {
+    .ll-container {
+        width: 100%;
     }
 }
 
-.ll-about {
-
-}
-
-.ll-about-text {
-    font-size: 0.9rem;
-    color: black;
-}
-
-.github-url {
-    white-space: nowrap;
-}
-
-@media (max-width: 450px) {
-    .github-url {
-        white-space: unset;
-        overflow-wrap: break-word;
-    }
-}
-
-.ll-profile {
-
-}
-
-.ll-profile-picture {
-    width: 365px;
-    height: 365px;
-}
-
-@media (max-width: 390px) {
-    .ll-profile-picture {
-        width: 200px;
-        height: 200px;
-    }
-}
-
-.ll-profile-text {
-    padding-top: 0.75rem;
-}
-
-.ll-social {
-    background-size: cover;
-    width: 37px;
-    height: 37px;
-    object-fit: cover;
-    filter: invert(0.5);
-    cursor: pointer;
-    transition: filter 0.35s;
-    margin: 16px 19px;
-}
-
-.ll-social:hover {
-    filter: invert(0.2);
-}
-
-@media (max-width: 390px) {
-    .ll-social {
-        width: 28px;
-        height: 28px;
-        margin: 12px;
-    }
+.ll-inner {
+    
 }
