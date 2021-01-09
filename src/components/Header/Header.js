@@ -13,7 +13,7 @@ export const Header = () => (
             <img className="img-fluid mx-auto d-block" alt="" src="https://avatars0.githubusercontent.com/u/4143729?s=460&v=5" />
         </div>
         <div>
-            <div className="mt-3 mb-2">
+            <div className="mt-2 mb-2">
                 <h1 className='text-center m-0'>Łukasz Łapaj</h1>
             </div>
         </div>

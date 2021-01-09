@@ -8,13 +8,12 @@ import About from './components/About/About'
 import Projects from './components/Projects/Projects'
 import Technologies from "./components/Technologies/Technologies";
 
-import {BrowserRouter as Router, Route} from 'react-router-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
     return (
         <Router>
-            <div className='ll-container mx-auto mt-4 mb-6'>
+            <div className='ll-container mx-auto'>
                 <div className="ll-inner px-3">
                     <Header />
                     <Navigation />

@@ -27,6 +27,8 @@ h1 {
 
 .ll-container {
     max-width: 430px;
+    margin-top: 22px;
+    margin-bottom: 45px;
 }
 
 @media (max-width: 430px) {
