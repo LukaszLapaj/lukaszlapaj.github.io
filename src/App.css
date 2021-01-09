@@ -7,6 +7,12 @@ body {
     font-family: "Open Sans", sans-serif;
     color: black;
     overflow-y: scroll;
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
