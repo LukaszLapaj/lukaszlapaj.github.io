@@ -12,12 +12,27 @@
     width: 37px;
     height: 37px;
     object-fit: cover;
-    filter: invert(0.5);
+    filter: invert(43%) sepia(0%) saturate(0%) hue-rotate(190deg) brightness(90%) contrast(87%);
     cursor: pointer;
     transition: filter 0.35s;
-    /* margin: 16px 19px; */
 }
 
 .ll-social:hover {
-    filter: invert(0.2);
+    filter: invert(18%) sepia(0%) saturate(1%) hue-rotate(103deg) brightness(93%) contrast(89%);
+}
+
+@media (prefers-color-scheme: dark) {
+    .ll-social {
+        background-size: cover;
+        width: 37px;
+        height: 37px;
+        object-fit: cover;
+        filter: invert(100%) sepia(2%) saturate(1392%) hue-rotate(196deg) brightness(120%) contrast(84%);
+        cursor: pointer;
+        transition: filter 0.25s;
+    }
+    
+    .ll-social:hover {
+        filter: invert(61%) sepia(19%) saturate(0%) hue-rotate(167deg) brightness(108%) contrast(91%);
+    }
 }
