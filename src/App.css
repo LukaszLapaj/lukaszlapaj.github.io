@@ -5,8 +5,10 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    color: black;
+    color: #000000;
+    background-color: #FFFFFF;
     overflow-y: scroll;
+    overflow-x: hidden;
     touch-action: pan-x pan-y;
 }
 
@@ -43,7 +45,7 @@ h1 {
 
 @media (prefers-color-scheme: dark) {
     body {
-        color: white;
-        background-color: black;
+        color: #FFFFFF;
+        background-color: #000000;
     }
 }
