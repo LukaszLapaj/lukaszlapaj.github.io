@@ -3,13 +3,13 @@ import './Navigation.css'
 import { NavLink } from "react-router-dom";
 import Pdf from '../../assets/CV.pdf';
 
-export const Projects = () => (
+const Projects = () => (
     <div>
         <div className="d-flex justify-content-between align-content-center mt-2 mb-3 px-1">
-            <NavLink exact to="/" className="ll-link nav-link" activeClassName="active">Me</NavLink>
-            <NavLink exact to={Pdf} target="_blank" className="nav-link ll-link" activeClassName="active">CV</NavLink>
-            <NavLink exact to="/projects" className="nav-link ll-link" activeClassName="">Projects</NavLink>
-            <NavLink exact to="/technologies" className="nav-link ll-link" activeClassName="active">Technologies</NavLink>
+            <NavLink to="/" className="ll-link nav-link not-draggable" activeClassName="active">Me</NavLink>
+            <NavLink to={Pdf} target="_blank" className="nav-link ll-link not-draggable" activeClassName="active">CV</NavLink>
+            <NavLink to="/projects" className="nav-link ll-link not-draggable" activeClassName="">Projects</NavLink>
+            <NavLink to="/technologies" className="nav-link ll-link not-draggable" activeClassName="active">Technologies</NavLink>
         </div>
     </div>
 );

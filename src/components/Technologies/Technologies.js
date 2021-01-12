@@ -2,7 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import "./Technologies.css"
 
-export const Technologies = () => (
+const Technologies = () => (
     <div className="ll-technologies">
         <span>
             <p className="font-weight-bold h3">Technologies</p>

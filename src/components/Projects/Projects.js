@@ -2,7 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import "./Projects.css"
 
-export const Projects = () => (
+const Projects = () => (
     <div className="ll-projects">
         <p className="font-weight-bold h3">Projects</p>
         <p><span className="font-weight-bold">AirPurifierDriver:</span><br />

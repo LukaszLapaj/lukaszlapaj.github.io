@@ -19,11 +19,21 @@ export const Header = () => (
         </div>
         <div>
             <div className="d-flex justify-content-between align-content-center my-3 px-4">
-                <a className="not-draggable" href="https://www.linkedin.com/in/lukaszlapaj/" target="_blank" rel="noreferrer"><img alt="LI" className="ll-social" src={LinkedIn} /></a>
-                <a className="not-draggable" href="https://github.com/lukaszlapaj" target="_blank" rel="noreferrer"><img alt="GH" className="ll-social" src={GitHub} /></a>
-                <a className="not-draggable" href="mailto:lukaszlapaj@interia.pl" target="_blank" rel="noreferrer"><img alt="MAIL" className="ll-social" src={Mail} /></a>
-                <a className="not-draggable" href="https://www.facebook.com/LukaszLapaj" target="_blank" rel="noreferrer"><img alt="FB" className="ll-social" src={Facebook} /></a>
-                <a className="not-draggable" href="https://www.instagram.com/eloeloou" target="_blank" rel="noreferrer"><img alt="IG" className="ll-social" src={Instagram} /></a>
+                <a className="not-draggable" href="https://www.linkedin.com/in/lukaszlapaj/" target="_blank" rel="noreferrer">
+                    <img alt="LI" className="ll-social not-draggable" src={LinkedIn} />
+                </a>
+                <a className="not-draggable" href="https://github.com/lukaszlapaj" target="_blank" rel="noreferrer">
+                    <img alt="GH" className="ll-social not-draggable" src={GitHub} />
+                </a>
+                <a className="not-draggable" href="mailto:lukaszlapaj@interia.pl" target="_blank" rel="noreferrer">
+                    <img alt="MAIL" className="ll-social not-draggable" src={Mail} />
+                </a>
+                <a className="not-draggable" href="https://www.facebook.com/LukaszLapaj" target="_blank" rel="noreferrer">
+                    <img alt="FB" className="ll-social not-draggable" src={Facebook} />
+                </a>
+                <a className="not-draggable" href="https://www.instagram.com/eloeloou" target="_blank" rel="noreferrer">
+                    <img alt="IG" className="ll-social not-draggable" src={Instagram} />
+                </a>
             </div>
         </div>
     </>
