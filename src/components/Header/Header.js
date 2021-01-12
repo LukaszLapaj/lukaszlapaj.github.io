@@ -10,7 +10,7 @@ import "./Header.css";
 export const Header = () => (
     <>
         <div>
-            <img className="img-fluid mx-auto d-block" alt="" src="https://avatars0.githubusercontent.com/u/4143729?s=460&v=5" />
+            <img className="img-fluid mx-auto d-block" loading="eager" width="398" height="398" alt="" src="https://avatars0.githubusercontent.com/u/4143729?s=460&v=5" />
         </div>
         <div>
             <div className="mt-2 mb-2">
