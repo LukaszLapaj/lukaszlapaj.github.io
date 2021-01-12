@@ -8,19 +8,21 @@ import About from './components/About/About'
 import Projects from './components/Projects/Projects'
 import Technologies from "./components/Technologies/Technologies";
 
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
     return (
-        <Router>
+        <Router basename='/'>
             <div className='ll-container mx-auto'>
                 <div className="ll-inner px-3">
                     <Header />
                     <Navigation />
-                    <Route exact path="/" component={About} />
-                    <Route exact path="/projects" component={Projects} />
-                    <Route exact path="/CV" component={About} />
-                    <Route exact path="/technologies" component={Technologies} />
+                    <Switch>
+                        <Route exact path="/" component={About} />
+                        <Route path="/projects" component={Projects} />
+                        <Route path="/CV" component={About} />
+                        <Route path="/technologies" component={Technologies} />
+                    </Switch>
                 </div>
             </div>
         </Router>
