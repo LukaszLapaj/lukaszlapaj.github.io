@@ -16,6 +16,11 @@
 }
 
 @media screen and (prefers-color-scheme: dark) {
+    :root {
+        --scrollbar: #555555;
+        --scrollbar-track: #292929;
+    }
+
     body {
         color: #FFFFFF;
         background-color: #000000;
