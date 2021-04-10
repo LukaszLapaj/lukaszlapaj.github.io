@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=block');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=block');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Open Sans", sans-serif !important;
     color: #000000;
