@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=block');
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif !important;
     color: #000000;
     background-color: #FFFFFF;
     overflow-y: scroll;
