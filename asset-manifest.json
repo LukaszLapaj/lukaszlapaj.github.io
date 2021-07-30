@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.5f89973c.chunk.css",
-    "main.js": "/static/js/main.95178ff5.chunk.js",
-    "main.js.map": "/static/js/main.95178ff5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.faecd20e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.faecd20e.js.map",
-    "static/css/2.ef9168ec.chunk.css": "/static/css/2.ef9168ec.chunk.css",
-    "static/js/2.6fad7373.chunk.js": "/static/js/2.6fad7373.chunk.js",
-    "static/js/2.6fad7373.chunk.js.map": "/static/js/2.6fad7373.chunk.js.map",
-    "static/js/3.02c0aa56.chunk.js": "/static/js/3.02c0aa56.chunk.js",
-    "static/js/3.02c0aa56.chunk.js.map": "/static/js/3.02c0aa56.chunk.js.map",
+    "main.js": "/static/js/main.644cf01d.chunk.js",
+    "main.js.map": "/static/js/main.644cf01d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.eaede164.js",
+    "runtime-main.js.map": "/static/js/runtime-main.eaede164.js.map",
+    "static/css/2.d5e620ed.chunk.css": "/static/css/2.d5e620ed.chunk.css",
+    "static/js/2.d642b10c.chunk.js": "/static/js/2.d642b10c.chunk.js",
+    "static/js/2.d642b10c.chunk.js.map": "/static/js/2.d642b10c.chunk.js.map",
+    "static/js/3.6fb20579.chunk.js": "/static/js/3.6fb20579.chunk.js",
+    "static/js/3.6fb20579.chunk.js.map": "/static/js/3.6fb20579.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.ef9168ec.chunk.css.map": "/static/css/2.ef9168ec.chunk.css.map",
+    "static/css/2.d5e620ed.chunk.css.map": "/static/css/2.d5e620ed.chunk.css.map",
     "static/css/main.5f89973c.chunk.css.map": "/static/css/main.5f89973c.chunk.css.map",
-    "static/js/2.6fad7373.chunk.js.LICENSE.txt": "/static/js/2.6fad7373.chunk.js.LICENSE.txt",
+    "static/js/2.d642b10c.chunk.js.LICENSE.txt": "/static/js/2.d642b10c.chunk.js.LICENSE.txt",
     "static/media/facebook.133a087a.svg": "/static/media/facebook.133a087a.svg",
     "static/media/github.59f8ab11.svg": "/static/media/github.59f8ab11.svg",
     "static/media/instagram.a9126711.svg": "/static/media/instagram.a9126711.svg",
@@ -21,10 +21,10 @@
     "static/media/mail.8e953b9b.svg": "/static/media/mail.8e953b9b.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.faecd20e.js",
-    "static/css/2.ef9168ec.chunk.css",
-    "static/js/2.6fad7373.chunk.js",
+    "static/js/runtime-main.eaede164.js",
+    "static/css/2.d5e620ed.chunk.css",
+    "static/js/2.d642b10c.chunk.js",
     "static/css/main.5f89973c.chunk.css",
-    "static/js/main.95178ff5.chunk.js"
+    "static/js/main.644cf01d.chunk.js"
   ]
 }
