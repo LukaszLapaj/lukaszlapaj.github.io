@@ -23,6 +23,13 @@ jobs:
           npm install
           npm run build
 
+      - name: Run tests
+        uses: cypress-io/github-action@v2
+        with:
+          build: npm run build
+          start: npm start
+          browser: chrome
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
