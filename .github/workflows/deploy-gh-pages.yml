@@ -35,6 +35,12 @@ jobs:
           start: npm start
           browser: firefox
 
+      - name: Run Edge tests
+        uses: cypress-io/github-action@v2
+        with:
+          start: npm start
+          browser: edge
+
       - name: Upload test screenshots
         uses: actions/upload-artifact@v2
         if: failure()
