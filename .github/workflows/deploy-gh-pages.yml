@@ -30,6 +30,13 @@ jobs:
           start: npm start
           browser: chrome
 
+      - name: Upload test screenshots
+        uses: actions/upload-artifact@v2
+        if: failure()
+        with:
+          name: cypress-screenshots
+          path: cypress/screenshots
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
