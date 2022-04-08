@@ -16,9 +16,11 @@ describe("test navigation", () => {
     })
 
     it("should visit CV", () => {
-        cy.visit("/")
-        cy.contains('a', 'CV').invoke('removeAttr', 'target').click()
-        cy.url().should('eq', 'https://lukaszlapaj.github.io/CV/Lukasz_Lapaj_CV.pdf')
+        if (Cypress.browser.isHeaded === true) {
+            cy.visit("/")
+            cy.contains('a', 'CV').invoke('removeAttr', 'target').click()
+            cy.url().should('eq', 'https://lukaszlapaj.github.io/CV/Lukasz_Lapaj_CV.pdf')
+        }
     })
 
     it("should visit projects tab", () => {
