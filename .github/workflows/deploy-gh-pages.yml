@@ -23,13 +23,17 @@ jobs:
           npm install
           npm run build
 
-      - name: Run tests
+      - name: Run Chrome tests
         uses: cypress-io/github-action@v2
         with:
-          build: npm run build
           start: npm start
           browser: chrome
-          headless: false
+
+      - name: Run Firefox tests
+        uses: cypress-io/github-action@v2
+        with:
+          start: npm start
+          browser: firefox
 
       - name: Upload test screenshots
         uses: actions/upload-artifact@v2
