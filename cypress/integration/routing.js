@@ -43,7 +43,7 @@ describe("test navigation", () => {
         cy.get('[class="ll-technologies"]').contains("Technologies")
     })
 
-    it("should visit linkedin", () => {
+    it("should visit linkedin", {browser: '!firefox'}, () => {
         cy.visit("/")
         cy.get('[alt="LI"]').parent().invoke('removeAttr', 'target').click()
         cy.location().should((loc) => {
@@ -51,7 +51,7 @@ describe("test navigation", () => {
         });
     })
 
-    it("should visit github", () => {
+    it("should visit github", {browser: '!firefox'}, () => {
         cy.visit("/")
         cy.get('[alt="GH"]').parent().invoke('removeAttr', 'target').click()
         cy.location().should((loc) => {
@@ -59,7 +59,7 @@ describe("test navigation", () => {
         });
     })
 
-    it("should visit facebook", () => {
+    it("should visit facebook", {browser: '!firefox'}, () => {
         cy.visit("/")
         cy.get('[alt="FB"]').parent().invoke('removeAttr', 'target').click()
         cy.location().should((loc) => {
@@ -67,7 +67,7 @@ describe("test navigation", () => {
         });
     })
 
-    it("should visit instagram", () => {
+    it("should visit instagram", {browser: '!firefox'}, () => {
         cy.visit("/")
         cy.get('[alt="IG"]').parent().invoke('removeAttr', 'target').click()
         cy.location().should((loc) => {
