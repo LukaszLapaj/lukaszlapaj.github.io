@@ -27,12 +27,14 @@ jobs:
         uses: cypress-io/github-action@v3
         with:
           start: npm run production
+          wait-on: 'http://localhost:3000'
           browser: chrome
 
       - name: Run Firefox tests
         uses: cypress-io/github-action@v3
         with:
           start: npm run production
+          wait-on: 'http://localhost:3000'
           browser: firefox
 
       - name: Upload test screenshots
