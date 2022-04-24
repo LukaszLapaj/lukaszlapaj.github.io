@@ -26,13 +26,13 @@ jobs:
       - name: Run Chrome tests
         uses: cypress-io/github-action@v2
         with:
-          start: node serve -s build
+          start: npm install -g serve && serve -s build
           browser: chrome
 
       - name: Run Firefox tests
         uses: cypress-io/github-action@v2
         with:
-          start: node serve -s build
+          start: npm install -g serve && serve -s build
           browser: firefox
 
       - name: Upload test screenshots
