@@ -15,7 +15,7 @@ describe("test navigation", () => {
         cy.get('[class="ll-about"]').should('be.visible')
     })
 
-    it("should visit CV", () => {
+    it("should visit CV", {browser: '!firefox'}, () => {
         if (Cypress.browser.isHeaded === true) {
             cy.visit("/")
             cy.contains('a', 'CV').invoke('removeAttr', 'target').click()
